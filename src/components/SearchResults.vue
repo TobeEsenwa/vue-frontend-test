@@ -10,7 +10,7 @@
 		</div>
 		<div v-else class="flex items-start w-[90%]">
 			<span class="search-result">Search Results For</span>
-			<span class="last-search"> "{{ lastSearchQuery }}"</span>
+			<span class="last-search"> “{{ lastSearchQuery }}”</span>
 			<button @click="resetSearch" class="ml-2 h-full">
 				<icon icon="ic:baseline-search" class="search-icon" />
 			</button>
